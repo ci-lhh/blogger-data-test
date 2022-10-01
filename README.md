@@ -8,27 +8,50 @@ Provide easily-importable, sufficiently-diverse sample data for exploring and te
 .
 
 ## Features
- - XHTML file containing importable blogger data set with pages, posts, and comments
-   - random [lorem ipsum text](https://www.lipsum.com/) content
-   - variety of [random images](https://randomwordgenerator.com/picture.php) for page and post headers, occasional images embedded in content paragraphs, plus a few images following content
-    - 8 pages
-        - comments
-            - allows testing of comments allowed, no new comments, and comments hidden settings
-            - comments and replies to comments (nested comments)
-    - 12 labels (category tags) helps testing of displays of individual posts and posts by label
-    - 33 posts
-        - many recent posts with fewer during the preceding 4 years (i.e. randomized front-loaded timestamps between 2019-04-22 and 2022-09-22) allowing testing of various archive settings
-        - variety of label assignments (none, up to 5)
-        - variety of descriptions (for meta tag generation and associated search results)
-        - most posts contain [randomized locations in the United States](https://hiveword.com/location-name-generator)
-        - all posts (except one) have a header image, with posts containing a variety of random images; some embedded in paragraphs, some following paragraph content. All images have alternate descriptions.
-        - 2 paragraphs per post
-        - single stylesheet post used to view a [variety of HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#inline_text_semantics) (e.g. text that is bold, italicized, underlined, emphasized, highlighted, struck, subscript, or superscript; anchors; links; lists that are ordered, unordered or definitions; subscript or superscript; inline or block quotes; citations; abbreviations; horizontal rules; figures; preformatted text; code; keyboard input; mathematical formulas; etc.)
-        - 148 comments
-            - allows testing of comments allowed, no new comments, and comments hidden settings
-            - comments and replies to comments (nested comments)
 
- - [Google sheet with raw data](https://docs.google.com/spreadsheets/d/1xrcaOy78e8cxkBVDXFVFinEe_0Yiyr62U65jl9zF4R0/edit?usp=sharing) can be copied (or included Microsoft Excel spreadsheet can be used) to access raw data and build additional data for test pages, posts, and labels.
+### Key Features
+ - XHTML file containing importable Google Blogger data set with theme plus 9 pages (static pages), 12 category tags (labels), 34 posts (items), and 193 comments.
+   - 9 pages with a variety of [titles](#titles), [descriptions](#search-descriptions), [body content](#bodies), and [comments](#comments);
+   - 12 labels with a variety of [titles](#titles).
+   - 34 posts with a variety of [timestamps](#post-timestamps), [titles](#titles), [descriptions](#search-descriptions), [labels (category tags)](#post-labels), [locations](#post-locations), [body content](#bodies), and [comments](#comments).
+   - 193 [comments](#comments) (i.e. 53 for pages, 140 for posts).
+ - Stylesheet page displays most common and most basic types of formatting using hypertext markup language (HTML) tagged content contained in bodies of blog pages and posts, including [headings](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements), [addresses](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address), [text formatting](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#text_content), [inline semantics](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#inline_text_semantics), [demarcating edits](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#demarcating_edits), [tables](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#table_content), [multimedia](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#image_and_multimedia), [embedded content](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#embedded_content), and [forms](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#forms).
+ - [Google sheet with raw data](https://docs.google.com/spreadsheets/d/1xrcaOy78e8cxkBVDXFVFinEe_0Yiyr62U65jl9zF4R0/edit?usp=sharing) can be copied (or included Microsoft Excel spreadsheet can be used) to access raw data and build additional data for test pages, labels, and posts.
+
+
+### Content Features
+
+#### Text
+Random [lorem ipsum text](https://www.lipsum.com/).
+
+#### Images
+Variety of [random images](https://randomwordgenerator.com/picture.php) for:
+ - page and post headers;
+ - occasional embedding in [body paragraphs](#bodies); plus,
+ - occasional inclusion after [body content](#bodies).
+
+#### Titles
+Single sentence of varying lengths containing random [lorem ipsum text](https://www.lipsum.com/).
+
+#### Search Descriptions
+Single sentence of varying lengths containing random [lorem ipsum text](https://www.lipsum.com/).
+
+#### Bodies
+[Random header image](https://randomwordgenerator.com/picture.php), followed by up to two paragraphs of varying lengths containing random [lorem ipsum text](https://www.lipsum.com/), followed by possibly up to two [random gallery images](https://randomwordgenerator.com/picture.php). Each image has alternate text with a single sentence of varying lengths containing random [lorem ipsum text](https://www.lipsum.com/). Each paragraph may or may not contain an embedded [random image](https://randomwordgenerator.com/picture.php). One or two posts do not have any images (i.e. no header image, no embedded paragraph images, and no post-content gallery images).
+
+#### Comments
+Variety of comments and replies (i.e. nested comments) on pages and posts to allow testing of comment permissions: allow; do not allow, show existing; plus, do not allow, hide existing. Each comment is a single sentence of varying lengths containing random [lorem ipsum text](https://www.lipsum.com/).
+
+#### Post Timestamps
+Many recent timestamps with fewer during the preceding 4 years (i.e. randomized front-loaded timestamps between 2019-04-22 and 2022-09-22) allowing testing of various archive settings.
+
+#### Post Labels
+Random selection of up to 5 labels from collection of 12 labels, whose titles contain up to 3 words of random [lorem ipsum text](https://www.lipsum.com/). One or two posts do not contain any label information.
+
+#### Post Locations
+Some posts contain a randomly chosen landmark in [a random city in the United States](https://hiveword.com/location-name-generator). Many posts contain only [a random city in the United States](https://hiveword.com/location-name-generator). A few posts only contain [a random state in the United States](https://hiveword.com/location-name-generator). One or two posts contain only the United States of America. One or two posts do not contain any location information. This variety helps test specificity of displayed locations.
+
+.
 
 ## Background
 While exploring the creation of themes for [Google Blogger](https://www.blogger.com/) using various sections, layouts, and widgets, discovered there was not enough data (e.g. pages, posts, or labels) with enough diversity to clearly understand how information would be displayed to visitors. Wanted to focus on Google products to explore integration of various [Google Cloud](https://cloud.google.com/) modules as tools for community members.
@@ -52,6 +75,27 @@ While exploring the creation of themes for [Google Blogger](https://www.blogger.
 1. Select downloaded `blogger-data-test.xml` file
 
 ## Configuration
+1. If continuing directly from [Installation](#installation), skip to step #2, otherwise do the following:
+   1. [Sign-in to Google account](https://accounts.google.com/)
+   1. Go to [Google Blogger](https://www.blogger.com/)
+   1. Click drop-down box at top of left-hand sidebar
+   1. Select title for test blog (e.g. My Blog Template Testing)
+
+1. Click `Settings` near bottom of left-hand toolbar
+1. In `Basic` section, click `Description` item
+1. On pop-up window, enter description (e.g. Sample blog for exploring and testing Google Blogger themes, layouts, and widgets.), then click `SAVE` button
+1. --TODO: favicon --
+1. Scroll down to `Comments` section, click on `Comment form message` item
+1. On pop-up window, enter comment form message (e.g. Please share your reactions and thoughts with us! What did you like most? What could we improve?), then click `SAVE` button
+1. Scroll down to `Formatting` section, click on `Time zone` item
+1. On pop-up window, select your time (e.g. (GMT-05:00) Central Time – Chicago for CDT or (GMT-06:00) Central Time – Chicago CST), then click `SAVE` button
+1. Scroll down to `Meta tags` section, click on slider to `Enable search description`
+1. Click on `Search description`, then on pop-up window, enter website description to be used in search engine results (e.g. Sample blog for exploring and testing Google Blogger themes, layouts, and widgets.), then click `SAVE` button
+1. Click `Layout` near middle of left-hand toolbar
+1. Go through each of the sections (e.g. headers, sidebars, main, footers) and each of the included widgets to review all settings. Make sure all settings are enabled and have desired content (e.g. text or images) to help understand data that is available for visitors. For each widget, simply click pencil (edit) icon to view settings for widget.
+   - If desired, get a random image for header widget at [Random Pictures](https://randomwordgenerator.com/picture.php)
+
+
 --TODO--
 
 ## Usage

@@ -51,17 +51,20 @@ Random selection of up to 5 labels from collection of 12 labels, whose titles co
 #### Post Locations
 Some posts contain a randomly chosen landmark in [a random city in the United States](https://hiveword.com/location-name-generator). Many posts contain only [a random city in the United States](https://hiveword.com/location-name-generator). A few posts only contain [a random state in the United States](https://hiveword.com/location-name-generator). One or two posts contain only the United States of America. One or two posts do not contain any location information. This variety helps test specificity of displayed locations.
 
-.
-
 ## Background
 While exploring the creation of themes for [Google Blogger](https://www.blogger.com/) using various sections, layouts, and widgets, discovered there was not enough data (e.g. pages, posts, or labels) with enough diversity to clearly understand how information would be displayed to visitors. Wanted to focus on Google products to explore integration of various [Google Cloud](https://cloud.google.com/) modules as tools for community members.
 
 ## Requirements
- - Existing Google Account (e.g. GMail)
- - Ability to comfortably navigate GitHub website
- - Ability to comfortably navigate Google Blogger website
+ - existing Google Account (e.g. GMail)
+ - ability to comfortably navigate GitHub website
+ - ability to comfortably navigate Google Blogger website
+ - ability to comfortably use basic hypertext markup language (HTML) to organize and format both text and images
 
 ## Installation
+1. Clone repository to local workspace or download following files:
+    - [blogger-data-test.xml](https://github.com/ci-lhh/blogger-data-test/blob/main/blogger-data-test.xml)
+   - --TODO: blog logo --
+   - --TODO: favicon --
 1. [Sign-in to Google account](https://accounts.google.com/)
 1. Go to [Google Blogger](https://www.blogger.com/)
 1. Click drop-down box at top of left-hand sidebar
@@ -75,7 +78,7 @@ While exploring the creation of themes for [Google Blogger](https://www.blogger.
 1. Select downloaded `blogger-data-test.xml` file
 
 ## Configuration
-1. If continuing directly from [Installation](#installation), skip to step #2, otherwise do the following:
+1. If continuing directly from [Installation](#installation), skip to step #2, otherwise do following:
    1. [Sign-in to Google account](https://accounts.google.com/)
    1. Go to [Google Blogger](https://www.blogger.com/)
    1. Click drop-down box at top of left-hand sidebar

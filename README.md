@@ -1,6 +1,6 @@
 # blogger-data-test
 
-Provide easily-importable, sufficiently-diverse sample data for exploring and testing Google Blogger blogs, themes, layouts and widgets across the 4 types of views generated: index (items, tags, search results), static page, item (post), and archive. A 404 error page is unaffected by blog data.
+Provide easily-importable, comprehensive, and sufficiently-diverse sample data plus instructions to install and configure new Google Blogger blog to offer mmore robust exploration and testing of themes, layouts (sections), and widgets across 4 types of views generated: index (i.e. items, tags, search results), static page, item (i.e. post), and archive (i.e. items). 404 error page is unaffected by blog data.
 
 [ See https://github.com/ci-lhh/blogger-data-test ]
 

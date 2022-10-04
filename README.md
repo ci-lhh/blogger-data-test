@@ -136,9 +136,9 @@ See [Known Issues](#known-issues).
 
 1. Click `Pages` near middle of left-hand menu sidebar
 1. For each page in table below, do following:
-   1. Select page title to load page for editing
+   1. Select title to load for editing
    1. In right-hand menu sidebar, select `Search Description`
-   1. Enter page search description from table below
+   1. Enter search description from table below
    1. In upper-right-hand screen corner, click `Update` button
    1. In upper-left-hand screen corner, click `←` (back) button
 
@@ -150,11 +150,11 @@ See [Known Issues](#known-issues).
    | Sed Dignissim Eu Felis Ac Fringilla. | Etiam ut maximus massa. |
 
 1. For each page in table below, do following:
-   1. Select page title to load page for editing
+   1. Select title to load for editing
    1. In right-hand menu sidebar, select `Search Description`
-   1. Enter page search description from table below
+   1. Enter search description from table below
    1. In right-hand menu sidebar, select `Options`
-   1. Select page reader comments permission from table belowv
+   1. Select reader comments permission from table belowv
    1. In upper-right-hand screen corner, click `Update` button
    1. In upper-left-hand screen corner, click `←` (back) button
    
@@ -164,6 +164,62 @@ See [Known Issues](#known-issues).
    | Nulla Blandit Non Ante In Mollis. | Lorem ipsum dolor sit amet, consectetur adipiscing elit. | Do not allow, show existing |
    | Aliquam Suscipit Sapien Vitae Tincidunt Mollis. | Morbi id ornare erat. | Do not allow, hide existing |
    | Morbi Bibendum Nisi Sed Tempor Ultrices. | Phasellus tincidunt erat quis lacus ultricies, vitae aliquam arcu elementum. | Do not allow, hide existing |
+
+1. Click `Posts` near top of left-hand menu sidebar
+1. For each post in table below, do following:
+   1. Select title to load for editing
+   1. In right-hand menu sidebar, select `Search Description`
+   1. Enter search description from table below
+   1. In upper-right-hand screen corner, click `Update` button
+   1. In upper-left-hand screen corner, click `←` (back) button
+
+   | Title | Search Description |
+   | :---- | :----------------- |
+   | Ac Tellus Praesent Sed Tortor In Dolor Varius Porttitor  | Duis pretium commodo diam, ac laoreet est facilisis vel. |
+   | Aenean vel enim ac nisi iaculis egestas nec ac dui. | Aliquam consectetur dignissim dignissim. |
+   | Aliquam aliquam consectetur porta. | Morbi gravida elit id elit interdum faucibus. |
+   | Aliquam erat volutpat. | Pellentesque in dui in felis fermentum dignissim. |
+   | Donec lacinia mi eu pharetra aliquet. | Vestibulum eget eros dolor. |
+   | Donec ultrices mauris vitae diam tincidunt imperdiet tempus id justo. | Suspendisse cursus, nunc eu laoreet vulputate, nulla elit viverra quam, et egestas ligula leo a tellus. |
+   | Et Commodo Vel, Semper In Lectus Aliquam Hendrerit Libero  | Morbi quis sem non lorem porttitor commodo convallis at augue. |
+   | Imperdiet Interdum Ac Ut Neque Quisque Ac Augue Eu Elit Mollis Egestas  | Aliquam auctor varius lectus, non hendrerit eros tempor id. |
+   | In placerat mi sit amet nibh elementum, nec tincidunt lectus convallis. | Donec dapibus tortor dignissim nibh convallis mattis. |
+   | Luctus Varius Sed, Convallis Id Nulla Curabitur Quam Metus, Tempus  | Integer ut eros sit amet mauris fringilla tincidunt. |
+   | Metus, In Faucibus Tortor - Morbi Suscipit Scelerisque Elit  | Fusce auctor, nunc id luctus facilisis, nulla tellus efficitur mi, et dignissim nunc mi vitae lorem. |
+   | Nam vel justo et arcu dictum pharetra eu at enim. | Duis sed nisi leo. |
+   | Nulla egestas elementum purus, quis ultricies est. | Integer justo libero, dignissim et auctor quis, iaculis eget leo. |
+   | Ornare Diam, Vitae Dictum Quam Integer Vel Nisi Ac Nunc  | Phasellus accumsan neque non dui ullamcorper tempor facilisis quis enim. |
+   | Pellentesque commodo, augue pellentesque ornare maximus, est massa congue risus, sit amet dictum lectus leo vitae velit. | Vestibulum porta est et dui vestibulum, vitae porta orci interdum. |
+   | Pellentesque suscipit mi vitae erat rutrum, ac scelerisque quam fermentum. | Aenean sit amet mollis libero. |
+   | Quis Ultricies Vulputate Nam Nulla Est, Imperdiet Eget Auctor Ac, Eleifend  | Sed vitae ultrices diam. |
+   | Quisque Aliquam Id Velit At Vulputate Etiam Nisl Mi, Ornare  | Sed id pharetra neque. |
+   | Quisque Sodales Gravida Purus Ac Placerat Pellentesque Eu Egestas  | Duis porta purus sed nibh imperdiet, in viverra mauris sodales. |
+   | Sit Amet Viverra Ut Interdum Vehicula Turpis A Hendrerit Vestibulum  | Aliquam erat volutpat. |
+   | Sollicitudin Rhoncus Nunc Efficitur Erat Metus, Quis Bibendum  | Phasellus et mattis sapien, non egestas velit. |
+   | Vitae A Metus Etiam Odio Odio, Tincidunt Vitae Massa Et, Viverra Pellentesque  | Duis eu orci sed ipsum congue tempus. |
+
+1. For each post in table below, do following:
+   1. Select title to load for editing
+   1. In right-hand menu sidebar, select `Search Description`
+   1. Enter search description from table below
+   1. In right-hand menu sidebar, select `Options`
+   1. Select reader comments permission from table belowv
+   1. In upper-right-hand screen corner, click `Update` button
+   1. In upper-left-hand screen corner, click `←` (back) button
+   
+   | Title | Search Description | Comments Permission |
+   | :---- | :----------------- | :------------------ |
+   | Ligula Aliquet Id Sed Eu Ultricies Odio Aliquam Vitae  | Phasellus vel orci eleifend, ultrices ante non, suscipit eros. | Do not allow, show existing |
+   | Pellentesque Metus Et Quam Dignissim, Eget Pretium Ligula Interdum | Nulla scelerisque est accumsan fermentum dapibus. | Do not allow, show existing |
+   | Sed justo ex, varius eu ornare eget, mollis et lorem. | Phasellus et congue purus, a commodo dolor. | Do not allow, show existing |
+   | Cras at malesuada elit. | Proin faucibus, nibh sit amet sagittis maximus, eros turpis malesuada nibh, nec faucibus sapien nibh ut est. | Do not allow, hide existing |
+   | Donec Sit Amet Lacinia Ante Proin Consequat Enim Vitae  | Cras posuere sit amet mi sodales faucibus. | Do not allow, hide existing |
+   | Erat Etiam Tempus Augue At Neque Posuere Sagittis | Mauris facilisis quis arcu in scelerisque. | Do not allow, hide existing |
+   | Mauris a semper tortor. | Sed vel nunc erat. | Do not allow, hide existing |
+   | Proin tempus, nisl sed vulputate iaculis, felis mi venenatis dolor, eget convallis ante libero eu erat. | Etiam iaculis neque at mi mollis, in volutpat sapien cursus. | Do not allow, hide existing |
+   | Sed tincidunt eu turpis nec vehicula. | Vivamus quis viverra eros, finibus aliquam sapien. | Do not allow, hide existing |
+   | Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse potenti. | Quisque at varius nisi. | Do not allow, hide existing |
+   | Vestibulum eu accumsan purus. | Cras elementum augue ipsum, et mollis nunc condimentum eu. | Do not allow, hide existing |
 
 .
 

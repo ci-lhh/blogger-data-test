@@ -91,7 +91,7 @@ While exploring the creation of themes for [Google Blogger](https://www.blogger.
 
 ### Google Blogger Backup (Export) / Restore (Import) Post and Page Entries Missing Search Description and Comment Permission Setting
 
-When backing-up (exporting) the data from Google Blogger to create the XML file, the resulting XML file does not contain data for search description and comment permission settings in the post and page entries. Therefore, these missing data cannot be imported. See [related Blogger Help Community post](https://support.google.com/blogger/thread/182076325) for more information. See [Installation of Manual Workaround for Known Issues](#manual-workaround-for-known-issues).
+When backing-up (exporting) data from Google Blogger to create XML file, resulting XML file does not contain data for search description and comment permission settings in post and page entries. Therefore, these missing data cannot be imported. See [related Blogger Help Community post](https://support.google.com/blogger/thread/182076325) for more information. See [Installation of Manual Workaround for Known Issues](#manual-workaround-for-known-issues).
 
 .
 
@@ -100,6 +100,7 @@ When backing-up (exporting) the data from Google Blogger to create the XML file,
  - existing Google Account (e.g. GMail)
  - ability to comfortably navigate GitHub website
  - ability to comfortably navigate Google Blogger website
+ - ability to download linked text and image files
  - ability to comfortably use basic hypertext markup language (HTML) to organize and format both text and images
 
 .
@@ -108,14 +109,15 @@ When backing-up (exporting) the data from Google Blogger to create the XML file,
 
 1. Clone repository to local workspace or download following files:
     - [blogger-data-test.xml](https://github.com/ci-lhh/blogger-data-test/blob/main/blogger-data-test.xml)
+    - [favicon.icov](https://github.com/ci-lhh/blogger-data-test/blob/main/favicon.ico)
    - --TODO: blog logo --
    - --TODO: favicon --
 1. [Sign-in to Google account](https://accounts.google.com/)
 1. Go to [Google Blogger](https://www.blogger.com/)
 1. Click drop-down box at top of left-hand menu sidebar
 1. Select `New Blog…`
-1. Enter title for test blog (e.g. My Blog Template Testing)
-1. Enter subdomain address for test blog (e.g. mytest2058)
+1. Enter title for test blog (e.g. My Google Blogger Template Sample)
+1. Enter subdomain address for test blog (e.g. mysample2058)
 1. Click `Settings` near bottom of left-hand menu sidebar
 1. Scroll down to `Manage Blog` section
 1. Select `Import content`
@@ -234,9 +236,14 @@ See [Known Issues](#known-issues).
 ### Blog Settings
 
 1. Click `Settings` near bottom of left-hand menu sidebar
-1. In `Basic` section, click `Description` item
-1. On pop-up window, enter description (e.g. Sample blog for exploring and testing Google Blogger themes, layouts, and widgets.), then click `SAVE` button
-1. --TODO: favicon --
+1. In `Basic` section, click `Description` to review and update (e.g. Sample blog for teaching, learning, exploring, and testing Google Blogger themes, layouts, and widgets.), then click `SAVE`
+1. Click `Favicon`
+1. Click `Choose File`
+1. Select downloaded `favicon.ico` file
+1. Click `Save`
+
+
+
 1. Scroll down to `Comments` section, click on `Comment form message` item
 1. On pop-up window, enter comment form message (e.g. Please share your reactions and thoughts with us! What did you like most? What could we improve?), then click `SAVE` button
 1. Scroll down to `Formatting` section, click on `Time zone` item

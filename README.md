@@ -105,7 +105,9 @@ When backing-up (exporting) the data from Google Blogger to create the XML file,
 1. On pop-up window, click `IMPORT` button
 1. Select downloaded `blogger-data-test.xml` file
 
-### Manual Workaround for Known 
+### Manual Workaround for Known Issues
+
+See [Know Issues](#known-issues).
 
 1. If continuing directly from [Installation](#installation), skip to step #2, otherwise do following:
    1. [Sign-in to Google account](https://accounts.google.com/)

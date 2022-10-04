@@ -138,7 +138,7 @@ See [Known Issues](#known-issues).
 1. For each page in table below, do following:
    1. Select title to load for editing
    1. In right-hand menu sidebar, select `Search Description`
-   1. Enter search description from table below
+   1. Copy search description from table below and paste into page search description
    1. In upper-right-hand screen corner, click `Update` button
    1. In upper-left-hand screen corner, click `←` (back) button
 
@@ -152,9 +152,9 @@ See [Known Issues](#known-issues).
 1. For each page in table below, do following:
    1. Select title to load for editing
    1. In right-hand menu sidebar, select `Search Description`
-   1. Enter search description from table below
+   1. Copy search description from table below and paste into page search description
    1. In right-hand menu sidebar, select `Options`
-   1. Select reader comments permission from table belowv
+   1. Select reader comments permission from table below
    1. In upper-right-hand screen corner, click `Update` button
    1. In upper-left-hand screen corner, click `←` (back) button
    
@@ -169,7 +169,7 @@ See [Known Issues](#known-issues).
 1. For each post in table below, do following:
    1. Select title to load for editing
    1. In right-hand menu sidebar, select `Search Description`
-   1. Enter search description from table below
+   1. Copy search description from table below and paste into post search description
    1. In upper-right-hand screen corner, click `Update` button
    1. In upper-left-hand screen corner, click `←` (back) button
 
@@ -201,7 +201,7 @@ See [Known Issues](#known-issues).
 1. For each post in table below, do following:
    1. Select title to load for editing
    1. In right-hand menu sidebar, select `Search Description`
-   1. Enter search description from table below
+   1. Copy search description from table below and paste into post search description
    1. In right-hand menu sidebar, select `Options`
    1. Select reader comments permission from table belowv
    1. In upper-right-hand screen corner, click `Update` button

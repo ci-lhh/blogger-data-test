@@ -8,6 +8,23 @@ Provide easily-importable, sufficiently-diverse sample data for exploring and te
 
 .
 
+## Table of Contents
+
+ - [Features](#features)
+ - [Background](#background)
+ - [Known Issues](#known-issues)
+ - [Requirements](#requirements)
+ - [Installation](#installation)
+ - [Configuration](#configuration)
+ - [Usage](#usage)
+ - [Support](#support)
+ - [Authors and Acknowledgment](#authors-and-acknowledgment)
+ - [Contributing](#contributing)
+ - [Roadmap](#roadmap)
+ - [License](#license)
+
+.
+
 ## Features
 
 ### Key Features
@@ -107,7 +124,7 @@ When backing-up (exporting) the data from Google Blogger to create the XML file,
 
 ### Manual Workaround for Known Issues
 
-See [Know Issues](#known-issues).
+See [Known Issues](#known-issues).
 
 1. If continuing directly from [Installation](#installation), skip to step #2, otherwise do following:
    1. [Sign-in to Google account](https://accounts.google.com/)
@@ -183,7 +200,7 @@ See [Know Issues](#known-issues).
 
 .
 
-# Test Case Highlights
+### Test Case Highlights
 
 -- TODO: identify test case post dates --
 
@@ -209,7 +226,7 @@ See [Know Issues](#known-issues).
 
 .
 
-# Authors and Acknowledgment
+## Authors and Acknowledgment
 
 --TODO--
 

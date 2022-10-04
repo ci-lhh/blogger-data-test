@@ -1,6 +1,6 @@
 # blogger-data-test
 
-Provide easily-importable, comprehensive, and sufficiently-diverse sample data plus instructions to install and configure new Google Blogger blog to offer mmore robust exploration and testing of themes, layouts (sections), and widgets across 4 types of views generated: index (i.e. items, tags, search results), static page, item (i.e. post), and archive (i.e. items). 404 error page is unaffected by blog data.
+Provide easily-importable, comprehensive, and sufficiently-diverse sample data plus instructions to install and configure new Google Blogger blog. Resulting blog helps to more robustly teach, learn, explore, and test themes, layouts (sections), and widgets across 4 types of views generated: index (i.e. items, tags, search results), static page, item (i.e. post), and archive (i.e. items); 404 error page is unaffected by blog data. 
 
 [ See https://github.com/ci-lhh/blogger-data-test ]
 
@@ -231,6 +231,8 @@ See [Known Issues](#known-issues).
    1. Click drop-down box at top of left-hand menu sidebar
    1. Select title for test blog (e.g. My Blog Template Testing)
 
+### Blog Settings
+
 1. Click `Settings` near bottom of left-hand menu sidebar
 1. In `Basic` section, click `Description` item
 1. On pop-up window, enter description (e.g. Sample blog for exploring and testing Google Blogger themes, layouts, and widgets.), then click `SAVE` button
@@ -241,7 +243,15 @@ See [Known Issues](#known-issues).
 1. On pop-up window, select your time (e.g. (GMT-05:00) Central Time – Chicago for CDT or (GMT-06:00) Central Time – Chicago CST), then click `SAVE` button
 1. Scroll down to `Meta tags` section, click on slider to `Enable search description`
 1. Click on `Search description`, then on pop-up window, enter website description to be used in search engine results (e.g. Sample blog for exploring and testing Google Blogger themes, layouts, and widgets.), then click `SAVE` button
-1. Click `Layout` near middle of left-hand menu sidebar
+
+### Layout
+
+#### Sections
+
+#### Widgets
+
+1. Click `Layout` near middle of left-hand menu 
+
 1. Go through each of the sections (e.g. headers, sidebars, main, footers) and each of the included widgets to review all settings. Make sure all settings are enabled and have desired content (e.g. text or images) to help understand data that is available for visitors. For each widget, simply click pencil (edit) icon to view settings for widget.
    - If desired, get a random image for header widget at [Random Pictures](https://randomwordgenerator.com/picture.php)
 

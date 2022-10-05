@@ -98,10 +98,11 @@ When backing-up (exporting) data from Google Blogger to create XML file, resulti
 ## Requirements
 
  - existing Google Account (e.g. GMail)
- - ability to comfortably navigate GitHub website
- - ability to comfortably navigate Google Blogger website
- - ability to download linked text and image files
- - ability to comfortably use basic hypertext markup language (HTML) to organize and format both text and images
+ - ability to comfortably do following:
+ - navigate [GitHub website](https://github.com/)
+ - navigate [Google Blogger website](https://www.blogger.com/)
+ - download linked text and image files
+ - use basic [hypertext markup language (HTML)](https://developer.mozilla.org/en-US/docs/Web/HTML) to organize and format both text and images
 
 .
 
@@ -109,7 +110,7 @@ When backing-up (exporting) data from Google Blogger to create XML file, resulti
 
 1. Clone repository to local workspace or download following files:
     - [blogger-data-test.xml](https://github.com/ci-lhh/blogger-data-test/blob/main/blogger-data-test.xml)
-    - [favicon.icov](https://github.com/ci-lhh/blogger-data-test/blob/main/favicon.ico)
+    - [favicon.ico](https://github.com/ci-lhh/blogger-data-test/blob/main/favicon.ico)
    - --TODO: blog logo --
    - --TODO: favicon --
 1. [Sign-in to Google account](https://accounts.google.com/)
@@ -235,21 +236,30 @@ See [Known Issues](#known-issues).
 
 ### Blog Settings
 
+PURPOSE: help to learn, explore, and test various settings to get best experience
+
 1. Click `Settings` near bottom of left-hand menu sidebar
 1. In `Basic` section, click `Description` to review and update (e.g. Sample blog for teaching, learning, exploring, and testing Google Blogger themes, layouts, and widgets.), then click `SAVE`
-1. Click `Favicon`
-1. Click `Choose File`
-1. Select downloaded `favicon.ico` file
-1. Click `Save`
+1. Click `Favicon`, click `Choose File`, select downloaded `favicon.ico` file, then click `Save`
+1. Scroll down to `Privacy` section, click slider for `Visible to search engines` to hide sample blog from search engines (i.e. avoid cluttering search results with sample data)
+1. Scroll down to `Permissions` section, click `Reader access`, select `Private to authors` (or `Public` to share with others), then click `SAVE`
+1. Scroll down to `Posts` section, click `Max posts shown on main page`, enter `7`, then click `SAVE
+1. Scroll down to `Comments` section, click `Comment location`, select `Embedded`, then click `SAVE`
+1. Click `Who can comment?`, select `Users with Google Accounts`, then click `SAVE`
+1. Click `Comment moderation`, select `Always`, then click `SAVE`
+1. Click `Email moderation requests to`, enter email address, then click `SAVE`
+1. Click `Comment form message`, enter, enter comment form message (e.g. Please share your reactions and thoughts with us! What did you like most? What could we improve?), then click `SAVE`
+1. Click `Pending comment notification emails`, enter email address, then click `SAVE`
+1. Scroll down to `Formatting` section, click `Time zone`, select your time (e.g. (GMT-05:00) Central Time – Chicago for CDT or (GMT-06:00) Central Time – Chicago CST), then click `SAVE` button
+1. Click `Date header format`, then select option to display weekday, month, day, and year (e.g. Tuesday, October 04, 2022), then click `SAVE`
+1. Click `Timestamp format`, then select option to display hours, minutes, seconds, and AM/PM (e.g. 3:02:03 PM), then click `SAVE`
+1. Click `Comment timestamp format`, then select option to display weekday, month, day, year, hours, minutes, seconds, and AM/PM (e.g. Tuesday, October 04, 2022 at 3:02:03 PM UTC-5), then click `SAVE`
+1. Scroll down to `Meta tags` section, then click on slider to `Enable search description`
+1. Click on `Search description`, then enter website description to be used in search engine results (e.g. My sample Google Blogger blog to more robustly teach, learn, explore, and test themes, layouts, and widgets.), static page, item (i.e. post), and archive (i.e. items); 404 error page is unaffected by blog data.), then click `SAVE` button
+1. Scroll down to `Site feed` section, click `Allow blog feed`, select option `Until Jump Break`, then click `SAVE` button
+1. Click `Post feed footer`, enter post feed footer (e.g. For more information, please visit our website. For updates, please follow us on your favorite social media!), then click `SAVE` button
+1. Scroll down to `General` section, click `User Profile`, then complete profile as much as desired (e.g. here is [my profile](https://www.blogger.com/profile/15576681007190902298))
 
-
-
-1. Scroll down to `Comments` section, click on `Comment form message` item
-1. On pop-up window, enter comment form message (e.g. Please share your reactions and thoughts with us! What did you like most? What could we improve?), then click `SAVE` button
-1. Scroll down to `Formatting` section, click on `Time zone` item
-1. On pop-up window, select your time (e.g. (GMT-05:00) Central Time – Chicago for CDT or (GMT-06:00) Central Time – Chicago CST), then click `SAVE` button
-1. Scroll down to `Meta tags` section, click on slider to `Enable search description`
-1. Click on `Search description`, then on pop-up window, enter website description to be used in search engine results (e.g. Sample blog for exploring and testing Google Blogger themes, layouts, and widgets.), then click `SAVE` button
 
 ### Layout
 

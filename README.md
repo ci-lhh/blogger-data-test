@@ -108,11 +108,12 @@ When backing-up (exporting) data from Google Blogger to create XML file, resulti
 
 ## Installation
 
+PURPOSE: get comprehensive and sufficiently-diverse sample data  help learn, explore, and test various themes, layouts (sections), and widgets 
+
 1. Clone repository to local workspace or download following files:
     - [blogger-data-test.xml](https://github.com/ci-lhh/blogger-data-test/blob/main/blogger-data-test.xml)
     - [favicon.ico](https://github.com/ci-lhh/blogger-data-test/blob/main/favicon.ico)
    - --TODO: blog logo --
-   - --TODO: favicon --
 1. [Sign-in to Google account](https://accounts.google.com/)
 1. Go to [Google Blogger](https://www.blogger.com/)
 1. Click drop-down box at top of left-hand menu sidebar
@@ -228,6 +229,8 @@ See [Known Issues](#known-issues).
 
 ## Configuration
 
+PURPOSE: help to learn, explore, and test various settings to get best experience
+
 1. If continuing directly from [Installation](#installation), skip to step #2, otherwise do following:
    1. [Sign-in to Google account](https://accounts.google.com/)
    1. Go to [Google Blogger](https://www.blogger.com/)
@@ -235,8 +238,6 @@ See [Known Issues](#known-issues).
    1. Select title for test blog (e.g. My Blog Template Testing)
 
 ### Blog Settings
-
-PURPOSE: help to learn, explore, and test various settings to get best experience
 
 1. Click `Settings` near bottom of left-hand menu sidebar
 1. In `Basic` section, click `Description` to review and update (e.g. Sample blog for teaching, learning, exploring, and testing Google Blogger themes, layouts, and widgets.), then click `SAVE`

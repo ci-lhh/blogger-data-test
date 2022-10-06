@@ -262,11 +262,38 @@ PURPOSE: help to learn, explore, and test various settings to get best experienc
 1. Scroll down to `General` section, click `User Profile`, then complete profile as much as desired (e.g. here is [my profile](https://www.blogger.com/profile/15576681007190902298))
 
 
-### Layout
+### Blog Layout
 
-#### Sections
+#### Header Section
+##### Header Widget
 
-#### Widgets
+#### Navbar Section
+##### PageList Widget
+
+#### Main Section
+##### Blog Widget
+##### TextList Widget
+##### Text Widget
+##### LinkList Widget
+##### Image Widget
+##### HTML Widget
+##### Profile Widget
+##### FeaturedPost Widget
+##### PopularPosts Widget
+
+#### Sidebar Section
+##### Translate Widget
+##### BlogSearch Widget
+##### Subscribe Widget
+##### BlogArchive Widget
+##### Label Widget
+
+#### Footer Section
+##### ContactForm Widget
+##### Stats Widget
+##### Attribution Widget
+##### ReportAbuse Widget
+##### BloggerButton Widget
 
 1. Click `Layout` near middle of left-hand menu 
 
@@ -281,6 +308,61 @@ PURPOSE: help to learn, explore, and test various settings to get best experienc
 ## Usage
 
 --TODO--
+
+.
+
+### Google Blogger Architecture
+
+ - Blog
+   - Export / Import (XML)
+     - Settings
+       - Theme (XHTML)
+         - [CSS](https://support.google.com/blogger/answer/46871)
+         - [Layout](https://support.google.com/blogger/answer/46888)
+           - [Sections](https://support.google.com/blogger/answer/46888#zippy=%2Cbsection-tag-attributes)
+             - ID
+             - Class
+             - Maximum Widget # (maxwidgets)
+             - Enable Additional Widgets (showaddelement)
+             - Span Direction (growth)
+             - [Widgets](https://support.google.com/blogger/answer/46888#zippy=%2Cwidget-attributes) (See also [XHTML Widget Tags](https://support.google.com/blogger/answer/46995) and [XHTML Data Tags](https://support.google.com/blogger/answer/47270))
+               - ID
+               - Type
+               - Locked Flag (locked)
+               - Title
+               - Display on View Type (pageType)
+               - Display on Mobile (mobile)
+               - Settings
+               - Content = *Data can only be offered inside widgets*
+     - Data
+       - Pages
+         - URL
+         - Author
+         - Title
+         - Search Description
+         - Body (HTML)
+         - *Comments* (linked by identifier)
+       - Posts
+         - URL
+         - Timestamp
+         - Author
+         - Title
+         - Search Description
+         - Labels
+         - Location
+         - Media Links
+         - Body (HTML)
+         - *Comments* (linked by identifier)
+       - Comments
+         - Timestamp
+         - Author
+         - Body (HTML)
+   - Views
+     - index (i.e. of items newest to oldest, items with specific label, items matching search criteria)
+     - static_page
+     - item
+     - archive
+     - error_page
 
 .
 

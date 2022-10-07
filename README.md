@@ -336,24 +336,29 @@ PURPOSE: help to learn, explore, and test various settings to get best experienc
                - Content = *Data can only be offered inside widgets*
      - Data
        - Pages
+         - ID
          - URL
          - Author
          - Title
-         - Search Description
+         - Search Description **MISSING -- See [Known Issues](#known-issues)**
          - Body (HTML)
+         - Comment Permission **MISSING -- See [Known Issues](#known-issues)**
          - *Comments* (linked by identifier)
        - Posts
+         - ID
          - URL
          - Timestamp
          - Author
          - Title
-         - Search Description
+         - Search Description **MISSING -- See [Known Issues](#known-issues)**
          - Labels
          - Location
          - Media Links
          - Body (HTML)
+         - Comment Permission **MISSING -- See [Known Issues](#known-issues)**
          - *Comments* (linked by identifier)
        - Comments
+         - ID
          - Timestamp
          - Author
          - Body (HTML)

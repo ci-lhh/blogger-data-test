@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">    
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Civic Innovations Google Blogger Sample Layout Sections</title>
+        <style>
+            body {
+                margin:1vw;
+                border:1vw dashed #0000FF;
+                padding:1vw;
+                background-color:#FFFF00;
+                color:#000000;
+                }
+
+            header, .navbar, .midbar, footer {
+                margin:1vw auto;
+                border:0.5vw dashed #FFFFFF;
+                padding:1vw;
+                background-color:#000000;
+                color:#FFFFFF;
+                }
+
+            main, .sidebar {
+                margin:1vw;
+                border:0.5vw dashed #FF00FF;
+                padding:1vw;
+                background-color:#00FF00;
+                color:#000000;
+                }
+
+            header { height:10vh; }
+            nav.navbar { height:5vh; }
+            main { height:45vh; }
+            footer p { height:15vh; }
+
+            p {
+                margin:0;
+                border:0;
+                padding:0;
+                font:4vh Tahoma;
+                }
+
+            body { font:1rem Georgia; }
+            header { font:bold 1.5em Tahoma; }
+            .navbar { font:bold 1.15em Tahoma; }
+            .midbar, footer { font:bold 0.5em Tahoma; }
+            article { font:1.5em Georgia; }
+
+            @media (max-width:9999px) {
+                header, .navbar, .midbar, footer {
+                    max-width:980px;
+                }
+		
+                .midbar {
+                    display:flex;
+                    flex-direction:row;
+                    justify-content:space-between;
+                    }
+		
+                /*  MAIN FLEX */
+                main { width:70%; }
+                .sidebar { width:30%; }
+                    
+                :root { font-size:4vw; }
+	            }
+
+            @media (max-width:980px) {
+                :root { font-size:3vw; }
+                }
+
+            @media (max-width:600px) {
+                :root { font-size:2vw; }
+                    
+                .midbar {
+                    display:flex;
+                    flex-direction:column;
+                    justify-content:space-between;
+                    } 
+                    
+                main, .sidebar {
+                    width:94%;
+                    }
+                }
+        </style>    
+    </head>
+    <body>
+        <header>
+            <p>Header</p>
+        </header>
+
+        <nav class="navbar">
+            <p>Navbar</p>
+        </nav>
+
+        <section class="midbar">
+            <main>
+                <p>Main</p>
+            </main>
+
+            <section class="sidebar">
+                <p>Sidebar</p>
+            </section>
+        </section>
+
+        <footer>
+            <p>Footer</p>
+        </footer>
+    </body>
+</html>

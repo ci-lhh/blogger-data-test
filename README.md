@@ -4,7 +4,7 @@ Provide easily-importable, comprehensive, and sufficiently-diverse sample data p
 
 [ See https://github.com/ci-lhh/blogger-data-test ]
 
-[See https://github.com/matiassingers/awesome-readme ]
+[ See https://github.com/matiassingers/awesome-readme ]
 
 .
 
@@ -111,7 +111,7 @@ When backing-up (exporting) data from Google Blogger to create XML file, resulti
 PURPOSE: get comprehensive and sufficiently-diverse sample data  help learn, explore, and test various themes, layouts (sections), and widgets 
 
 1. Clone repository to local workspace or download following files:
-    - [blogger-data-test.xml](https://github.com/ci-lhh/blogger-data-test/blob/main/blogger-data-test.xml)
+    - [google-blogger-sample-data.xml](https://github.com/ci-lhh/blogger-data-test/blob/main/google-blogger-sample-data.xml)
     - [favicon.ico](https://github.com/ci-lhh/blogger-data-test/blob/main/favicon.ico)
    - --TODO: blog logo --
 1. [Sign-in to Google account](https://accounts.google.com/)
@@ -124,7 +124,7 @@ PURPOSE: get comprehensive and sufficiently-diverse sample data  help learn, exp
 1. Scroll down to `Manage Blog` section
 1. Select `Import content`
 1. On pop-up window, click `IMPORT` button
-1. Select downloaded `blogger-data-test.xml` file
+1. Select downloaded `google-blogger-sample-data.xml` file
 
 ### Manual Workaround for Known Issues
 
@@ -272,12 +272,12 @@ PURPOSE: help to learn, explore, and test various settings to get best experienc
 
 #### Main Section
 ##### Blog Widget
+##### HTML Widget
+##### Image Widget
 ##### TextList Widget
 ##### Text Widget
-##### LinkList Widget
-##### Image Widget
-##### HTML Widget
 ##### Profile Widget
+##### LinkList Widget
 ##### FeaturedPost Widget
 ##### PopularPosts Widget
 
@@ -340,9 +340,9 @@ PURPOSE: help to learn, explore, and test various settings to get best experienc
          - URL
          - Author
          - Title
-         - Search Description **MISSING -- See [Known Issues](#known-issues)**
+         - Search Description -- **MISSING -- See [Known Issues](#known-issues)**
          - Body (HTML)
-         - Comment Permission **MISSING -- See [Known Issues](#known-issues)**
+         - Comment Permission -- **MISSING -- See [Known Issues](#known-issues)**
          - *Comments* (linked by identifier)
        - Posts
          - ID
@@ -350,12 +350,12 @@ PURPOSE: help to learn, explore, and test various settings to get best experienc
          - Timestamp
          - Author
          - Title
-         - Search Description **MISSING -- See [Known Issues](#known-issues)**
+         - Search Description -- **MISSING -- See [Known Issues](#known-issues)**
          - Labels
          - Location
          - Media Links
          - Body (HTML)
-         - Comment Permission **MISSING -- See [Known Issues](#known-issues)**
+         - Comment Permission -- **MISSING -- See [Known Issues](#known-issues)**
          - *Comments* (linked by identifier)
        - Comments
          - ID
@@ -363,7 +363,7 @@ PURPOSE: help to learn, explore, and test various settings to get best experienc
          - Author
          - Body (HTML)
    - Views
-     - index (i.e. of items newest to oldest, items with specific label, items matching search criteria)
+     - index (i.e. items newest to oldest, items with specific label, items matching search criteria)
      - static_page
      - item
      - archive
@@ -412,6 +412,26 @@ Please make sure to update tests as appropriate.
 .
 
 ## Roadmap
+
+* Finish [stylesheet page](https://ci-simplicity-test.blogspot.com/p/stylesheet.html)
+  * Finish [text-level semantics](https://html.spec.whatwg.org/multipage/text-level-semantics.html#text-level-semantics) (including [address](https://html.spec.whatwg.org/multipage/sections.html#the-address-element))
+  * Finish [text-level editing semantics](https://html.spec.whatwg.org/multipage/edits.html#edits)
+  * Finish [grouping content](https://html.spec.whatwg.org/multipage/grouping-content.html#grouping-content)
+  * Finish [embedded content](https://html.spec.whatwg.org/multipage/embedded-content.html#embedded-content)
+  * Finish [table](https://html.spec.whatwg.org/multipage/tables.html#tables)
+  * Finish [form](https://html.spec.whatwg.org/multipage/forms.html#forms)
+  Confirm completion of [Configuration of Blog Settings section](https://github.com/ci-lhh/blogger-data-test/blob/main/README.md#blog-settings)
+* Finish [Usage section](https://github.com/ci-lhh/blogger-data-test/blob/main/README.md#usage)
+  * Finish Usage of Views section
+  * Finish [Usage of Blog Layout section](https://github.com/ci-lhh/blogger-data-test/blob/main/README.md#blog-layout)
+  * Finish [Usage of Google Blogger Architecture section](https://github.com/ci-lhh/blogger-data-test/blob/main/README.md#google-blogger-architecture)
+* Finish [Test Case Highlights section](https://github.com/ci-lhh/blogger-data-test/blob/main/README.md#test-case-highlights)
+* Finish [Support section](https://github.com/ci-lhh/blogger-data-test/blob/main/README.md#support)
+* Finish [Authors and Acknowledgment section](https://github.com/ci-lhh/blogger-data-test/blob/main/README.md#authors-and-acknowledgment)
+* Finish [Contributing section](https://github.com/ci-lhh/blogger-data-test/blob/main/README.md#contributing)
+* Finish [License section](https://github.com/ci-lhh/blogger-data-test/blob/main/README.md#license)
+* Finish [Roadmap section](https://github.com/ci-lhh/blogger-data-test/blob/main/README.md#roadmap)
+
 
 --TODO--
 

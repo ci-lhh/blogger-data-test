@@ -1,0 +1,766 @@
+/*
+CIVIC INNOVATIONS PROJECT CASCADING STYLE SHEET (CSS) TEMPLATE
+
+PURPOSE: Offer easily used, quickly understood, and accessible documents for users, especially websites, webpages, and applications. Reduce resource waste while creating and using websites and applications for new projects, organizations, and solutions by using evidence-based best practices for HTML, CSS, JS, and WCAG.
+
+PUBLISHER: Civic Innovations
+DEVELOPER: Lance H. Hegland, MBA ( lance.hegland@gmail.com — 763-218-1433 )
+LAST UPDATE: 2022-03-27 16:04 CDT
+
+LICENSE: All content, concepts, and elements in this and associated documents are implicitly licensed under the least restrictive, most permissive, and most applicable of following:
+
+ * Creative Commons Attribution 3.0 Unported License (CC BY 3.0)
+   [ https://creativecommons.org/licenses/by/3.0/ ]; and,
+   
+ * Apache License, Version 2.0
+   [ http://www.apache.org/licenses/LICENSE-2.0 ].
+
+
+
+
+#################################################################################
+DEFINE STYLE                                                                   */
+
+:root {
+
+  --font-family-sans-serif:Tahoma,Arial,sans-serif;
+  --font-family-serif:Rockwell,Georgia,"Times New Roman",Times,serif;
+  --font-family-display:"Arial Black",Impact,sans-serif;
+  --font-family-monospace:Consolas,"Courier New",Courier,monospace;
+  --font-family-handwriting:"Brush Script MT", "Brush Script Std", cursive;
+
+
+/* ====================================================================
+Civic Innovations                                                    
+--font-family-sans-serif:Tahoma,Arial,sans-serif;
+--font-family-serif:Rockwell,Georgia,"Times New Roman",Times,serif;
+--font-family-display:"Arial Black",Impact,sans-serif;
+--font-family-monospace:Consolas,"Courier New",Courier,monospace;
+--font-family-handwriting:"Brush Script MT", "Brush Script Std",handwriting;
+
+--color-mono-dark:#000000;
+--color-mono-light:#FFFFFF;
+
+--color-gray-darkest:#1A1A1A;
+--color-gray-darker:#333333;
+--color-gray-base:#808080;
+--color-gray-lighter:#CCCCCC;
+--color-gray-lightest:#E6E6E6;
+
+--color-primary-darkest:#001C33;
+--color-primary-darker:#003866;
+--color-primary-base:#008CFF;
+--color-primary-lighter:#99D1FF;
+--color-primary-lightest:#CCE8FF;
+
+--color-secondary-darkest:#1B2B08;
+--color-secondary-darker:#37570F;
+--color-secondary-base:#88D926;
+--color-secondary-lighter:#D0F0A8;
+--color-secondary-lightest:#E7F7D4;
+
+--color-accent-01-darkest:#002B33;
+--color-accent-01-darker:#005566;
+--color-accent-01-base:#00D5FF;
+--color-accent-01-lighter:#99EEFF;
+--color-accent-01-lightest:#CCF7FF;
+
+--color-accent-02-darkest:#072A2C;
+--color-accent-02-darker:#0D5459;
+--color-accent-02-base:#21D1DE;
+--color-accent-02-lighter:#A6EDF2;
+--color-accent-02-lightest:#D3F6F8;
+
+--color-accent-03-darkest:#27110C;
+--color-accent-03-darker:#4E2318;
+--color-accent-03-base:#C3573C;
+--color-accent-03-lighter:#E7BCB1;
+--color-accent-03-lightest:#F3DDD8;
+
+--color-accent-04-darkest:#230F24;
+--color-accent-04-darker:#461F47;
+--color-accent-04-base:#AF4DB3;
+--color-accent-04-lighter:#DFB8E0;
+--color-accent-04-lightest:#EFDBF0;
+
+--color-accent-05-darkest:#141D1F;
+--color-accent-05-darker:#29393D;
+--color-accent-05-base:#668F99;
+--color-accent-05-lighter:#C2D2D6;
+--color-accent-05-lightest:#E0E9EB;
+
+--color-accent-06-darkest:#2E2405;
+--color-accent-06-darker:#5C470A;
+--color-accent-06-base:#E6B319;
+--color-accent-06-lighter:#F5E0A3;
+--color-accent-06-lightest:#FAF0D1;
+
+--color-accent-07-darkest:#081D2B;
+--color-accent-07-darker:#113A55;
+--color-accent-07-base:#2A91D5;
+--color-accent-07-lighter:#AAD3EE;
+--color-accent-07-lightest:#D4E9F7;
+
+--color-accent-08-darkest:#332400;
+--color-accent-08-darker:#664700;
+--color-accent-08-base:#FFB300;
+--color-accent-08-lighter:#FFE099;
+--color-accent-08-lightest:#FFF0CC;
+
+--color-highlight-darkest:#023300;
+--color-highlight-darker:#036600;
+--color-highlight-base:#09FF00;
+--color-highlight-lighter:#9CFF99;
+--color-highlight-lightest:#CEFFCC;
+
+--color-success-darkest:#333100;
+--color-success-darker:#666300;
+--color-success-base:#FFF700;
+--color-success-lighter:#FFFC99;
+--color-success-lightest:#FFFDCC;
+
+--color-warn-darkest:#331800;
+--color-warn-darker:#663000;
+--color-warn-base:#FF7700;
+--color-warn-lighter:#FFC999;
+--color-warn-lightest:#FFE4CC;
+
+--color-error-darkest:#330002;
+--color-error-darker:#660003;
+--color-error-base:#FF0008;
+--color-error-lighter:#FF999C;
+--color-error-lightest:#FFCCCE;
+
+--color-link-unvisited-darkest:#000233;
+--color-link-unvisited-darker:#000366;
+--color-link-unvisited-base:#0008FF;
+--color-link-unvisited-lighter:#999CFF;
+--color-link-unvisited-lightest:#CCCEFF;
+
+--color-link-active-darkest:#002833;
+--color-link-active-darker:#005066;
+--color-link-active-base:#00C8FF;
+--color-link-active-lighter:#99E9FF;
+--color-link-active-lightest:#CCF4FF;
+
+--color-link-visited-darkest:#180033;
+--color-link-visited-darker:#300066;
+--color-link-visited-base:#7700FF;
+--color-link-visited-lighter:#C999FF;
+--color-link-visited-lightest:#E4CCFF;
+*/
+
+
+/* ====================================================================
+FORTUNATE HOMES                                                      */
+--font-family-sans-serif:Tahoma,Arial,sans-serif;
+--font-family-serif:Rockwell,Georgia,"Times New Roman",Times,serif;
+--font-family-display:"Arial Black",Impact,sans-serif;
+--font-family-monospace:Consolas,"Courier New",Courier,monospace;
+--font-family-handwriting:"Brush Script MT", "Brush Script Std",handwriting;
+
+--color-mono-dark:#000000;
+--color-mono-light:#FFFFFF;
+
+--color-gray-darkest:#1A1A1A;
+--color-gray-darker:#333333;
+--color-gray-base:#808080;
+--color-gray-lighter:#CCCCCC;
+--color-gray-lightest:#E6E6E6;
+
+--color-primary-darkest:#250033;
+--color-primary-darker:#490066;
+--color-primary-base:#B700FF;
+--color-primary-lighter:#E299FF;
+--color-primary-lightest:#F1CCFF;
+
+--color-secondary-darkest:#17250E;
+--color-secondary-darker:#2E4B1B;
+--color-secondary-base:#74BB44;
+--color-secondary-lighter:#C7E4B4;
+--color-secondary-lightest:#E3F1DA;
+
+--color-accent-01-darkest:#330019;
+--color-accent-01-darker:#660031;
+--color-accent-01-base:#FF007B;
+--color-accent-01-lighter:#FF99CA;
+--color-accent-01-lightest:#FFCCE5;
+
+--color-accent-02-darkest:#1F3300;
+--color-accent-02-darker:#3F6600;
+--color-accent-02-base:#9DFF00;
+--color-accent-02-lighter:#D8FF99;
+--color-accent-02-lightest:#EBFFCC;
+
+--color-accent-03-darkest:#303300;
+--color-accent-03-darker:#616600;
+--color-accent-03-base:#F2FF00;
+--color-accent-03-lighter:#FAFF99;
+--color-accent-03-lightest:#FCFFCC;
+
+--color-accent-04-darkest:#1A1A1A;
+--color-accent-04-darker:#333333;
+--color-accent-04-base:#808080;
+--color-accent-04-lighter:#CCCCCC;
+--color-accent-04-lightest:#E6E6E6;
+
+--color-accent-05-darkest:#0E251D;
+--color-accent-05-darker:#1B4B3A;
+--color-accent-05-base:#44BB91;
+--color-accent-05-lighter:#B4E4D3;
+--color-accent-05-lightest:#DAF1E9;
+
+--color-accent-06-darkest:#28140B;
+--color-accent-06-darker:#502916;
+--color-accent-06-base:#C76538;
+--color-accent-06-lighter:#E9C2AF;
+--color-accent-06-lightest:#F4E0D7;
+
+--color-accent-07-darkest:#250E14;
+--color-accent-07-darker:#4B1B27;
+--color-accent-07-base:#BB4462;
+--color-accent-07-lighter:#E4B4C0;
+--color-accent-07-lightest:#F1DAE0;
+
+--color-accent-08-darkest:#1A1A1A;
+--color-accent-08-darker:#333333;
+--color-accent-08-base:#808080;
+--color-accent-08-lighter:#CCCCCC;
+--color-accent-08-lightest:#E6E6E6;
+
+--color-highlight-darkest:#023300;
+--color-highlight-darker:#036600;
+--color-highlight-base:#09FF00;
+--color-highlight-lighter:#9CFF99;
+--color-highlight-lightest:#CEFFCC;
+
+--color-success-darkest:#333100;
+--color-success-darker:#666300;
+--color-success-base:#FFF700;
+--color-success-lighter:#FFFC99;
+--color-success-lightest:#FFFDCC;
+
+--color-warn-darkest:#331800;
+--color-warn-darker:#663000;
+--color-warn-base:#FF7700;
+--color-warn-lighter:#FFC999;
+--color-warn-lightest:#FFE4CC;
+
+--color-error-darkest:#330002;
+--color-error-darker:#660003;
+--color-error-base:#FF0008;
+--color-error-lighter:#FF999C;
+--color-error-lightest:#FFCCCE;
+
+--color-link-unvisited-darkest:#000233;
+--color-link-unvisited-darker:#000366;
+--color-link-unvisited-base:#0008FF;
+--color-link-unvisited-lighter:#999CFF;
+--color-link-unvisited-lightest:#CCCEFF;
+
+--color-link-active-darkest:#002833;
+--color-link-active-darker:#005066;
+--color-link-active-base:#00C8FF;
+--color-link-active-lighter:#99E9FF;
+--color-link-active-lightest:#CCF4FF;
+
+--color-link-visited-darkest:#180033;
+--color-link-visited-darker:#300066;
+--color-link-visited-base:#7700FF;
+--color-link-visited-lighter:#C999FF;
+--color-link-visited-lightest:#E4CCFF;
+}
+
+
+
+
+/* ##############################################################################
+APPLY STYLE
+
+=======================================================================
+LAYOUT and TYPOGRAPHY                                                          */
+	
+body, div, header, nav, main, section, article, aside, h1, h2, h3, h4, p, img, ul, ol, blockquote {
+	margin:0;
+	border:0;
+	padding:0;
+	}
+	
+pre, blockquote, code {
+	overflow:auto;
+	}
+
+body {
+	padding:0.1em;
+	background-color:var(--color-mono-light);
+	font:1rem var(--font-family-serif);
+	color:var(--color-mono-dark);
+	}
+	
+#skip-nav a {
+	position: absolute;
+	top:-3em;
+	left:1em;
+    z-index:100;
+	-webkit-transition:top 1s ease-out;
+    transition:top 1s ease-out;
+	padding:0.5em;
+	border:0.2em solid var(--color-mono-light);
+	border-radius:0.5em;
+	background-color:var(--color-error-darker);
+	color:var(--color-mono-light);
+	font-weight:bold;
+}
+
+#skip-nav a:focus {
+	position:absolute;
+	top:0;
+	left:1em;
+	-webkit-transition: top .1s ease-in;
+    transition: top .1s ease-in;
+	outline-color:transparent;
+}
+
+a, a:link {
+	color:var(--color-link-unvisited-darker);
+	text-decoration:underline;
+	}
+
+a:visited {
+	color:var(--color-link-visited-darker);
+	}
+
+a:active {
+	color:var(--color-link-active-darker);
+	}
+
+a:hover, a:focus, a:focus-visible, a:focus-within {
+	background-color:var(--color-link-active-darker);
+	color:var(--color-link-active-lighter);
+	}
+
+header {
+	margin:0 auto;
+	font:bold 2em var(--font-family-serif);
+	}
+
+header img {
+	float:left;
+	margin:0 0.25em 0 0;
+	height:3em;
+	background-color:var(--color-mono-light);
+	}
+
+header h1 {
+	font:bold 1.5em var(--font-family-sans-serif);
+	color:var(--color-primary-darker);
+	}
+
+header p {
+	color:var(--color-primary-darker);
+	}
+
+nav.menu {
+	margin:0.6em auto;
+	border:0.1em solid var(--color-primary-darker);
+	border-radius:0.5em;
+	background-color:var(--color-primary-darker);
+	font:bold small-caps 1.5em var(--font-family-monospace);
+	color:var(--color-mono-light);
+	}
+
+nav.menu ul {
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	list-style:none;
+	}
+
+nav.menu li {
+	width:20%;
+	text-align:center;
+	}
+
+nav.menu a, nav.menu a:link, nav.menu a:visited {
+	background-color:var(--color-primary-darker);
+	color:var(--color-mono-light);
+	text-decoration:none;
+	}
+
+nav.menu a:hover, nav.menu a:focus, nav.menu a:active, nav.menu a:focus-visible, nav.menu a:focus-within {
+	background-color:var(--color-mono-light);
+	color:var(--color-primary-darker);
+	text-decoration:underline;
+	}
+
+main {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin:0 auto;
+	padding:0 0.5em;
+	background-color:var(--color-mono-light);
+	font:1em var(--font-family-serif);
+	color:var(--color-mono-dark);
+	}
+
+section.column-articles {
+	margin:0.4em;
+	font:1rem serif var(--color-primary-darker);
+	}
+	
+nav.breadcrumbs {
+	padding:0 0 0.5em 0;
+	font:bold small-caps 0.8em var(--font-family-sans-serif);
+	}
+
+nav.breadcrumbs h2 {
+	display:inline;
+	font-size:1em;
+	}
+	
+nav.breadcrumbs ul {
+	display:inline;
+	}
+	
+nav.breadcrumbs li {
+	display:inline;
+	}
+
+nav.breadcrumbs li+li:before {
+    content:" → ";
+}
+    
+nav.breadcrumbs li:first-child::before {
+    content:"";
+}
+	
+nav.breadcrumbs a {
+	text-decoration:underline;
+	}
+		
+article {
+	margin:0 0 4em 0;
+	border-top:0.2em solid var(--color-secondary-darker);
+	font:1rem var(--font-family-serif);
+	}
+	
+img.article-header {
+	margin:0 auto;
+	width:100%;
+	}
+
+article h2 {
+	margin:0.5em 0 0 0;
+	font:bold 2em var(--font-family-sans-serif);
+	color:var(--color-primary-darker);
+	}
+
+article h3 {
+	margin:2em 0 0 0;
+	font:bold 1.3em var(--font-family-sans-serif);
+	color:var(--color-primary-darker);
+	}
+
+article h4 {
+	margin:2em 0 0 0;
+	font:bold 1em var(--font-family-sans-serif);
+	color:var(--color-primary-darker);
+	}
+
+article p {
+	margin:1em 0;
+	}
+	
+article p.publish-date {
+	margin:0.2em 0;
+	font:bold 0.8em var(--font-family-sans-serif);
+	color:var(--color-gray-darker);
+	}
+
+article p.list-after {
+	margin:1em 0 0.5em 0;
+	}
+
+article p.list-before {
+	margin:2em 0 1em 0;
+	}
+
+article p.list-before-after {
+	margin:2em 0 0.5em 0;
+	}
+
+article ul, ol {
+	margin:0 0 1em 1.75em;
+	}
+
+article li {
+	margin:0.25em 0;
+	}
+
+article blockquote {
+	margin:1em 2em;
+	}
+
+article p.closing {
+	margin:0;
+	}
+
+article p.signature {
+	margin:0;
+	font:bold 2em var(--font-family-handwriting);
+	color:var(--color-link-unvisited-darker);
+	}
+
+article p.printed-name {
+	margin:0 0 2em 0;
+	font:bold 0.8em var(--font-family-sans-serif);
+	color:var(--color-mono-dark);
+	}
+
+
+section.column-fyis {
+	margin:0.5em;
+	border:0.1em solid var(--color-primary-darker);
+	border-radius:0.5em;
+	background-color:var(--color-primary-darker);
+	}
+
+section.column-fyis nav {
+	margin:0.5em;
+	border:0.1em solid var(--color-primary-lightest);
+	border-radius:0.5em;
+	padding:0.5em;
+	background-color:var(--color-primary-lightest);
+	color:var(--color-mono-dark);
+	}
+
+section.column-fyis h2 {
+	font:bold 1.2em var(--font-family-sans-serif);
+	text-decoration:underline;
+	}
+
+section.column-fyis p {
+	padding:0.5em 0;
+	font:bold 0.8em var(--font-family-sans-serif);
+	}
+
+section.column-fyis ul {
+	margin:0 0 0 1.3em;
+	font:0.8em var(--font-family-sans-serif);
+	list-style:"\279C"; /* Heavy Round-Tipped Rightwards Arrow */
+	}
+
+section.column-fyis li {
+	padding:0.3em 0 0.3em 0.2em;
+	}
+
+nav.questions ul {
+	margin:0;
+	list-style:none;
+	}
+
+nav.questions li {
+	padding:0.3em 0;
+	}
+
+
+nav.posts-tags ul {
+	margin:0;
+	display:inline;
+	}
+	
+nav.posts-tags li {
+	display:inline;
+	}
+
+nav.posts-tags li+li:before {
+    content:" - ";
+}
+    
+nav.posts-tags li:first-child::before {
+    content:"";
+}
+	
+footer {
+	margin:0.3em auto 0 auto;
+	border:0.1em solid var(--color-primary-darker);
+	border-radius:0.5em;
+	padding:0.5em;
+	background-color:var(--color-primary-darker);
+	font:bold 0.85em var(--font-family-sans-serif);
+	color:var(--color-mono-light);
+	}
+	
+footer h2 {
+	font:bold small-caps 1em var(--font-family-sans-serif);
+	text-decoration:underline;
+	}
+	
+footer ul {
+	list-style:none;
+}
+
+footer li {
+	margin:0.5em 0;
+	}
+
+footer a, footer a:link, footer a:visited {
+	background-color:var(--color-primary-darker);
+	color:var(--color-mono-light);
+	text-decoration:none;
+	}
+	
+footer a:hover, footer a:focus, footer a:active, footer a:focus-visible, footer a:focus-within {
+	background-color:var(--color-mono-light);
+	color:var(--color-primary-darker);
+	text-decoration:underline;
+	}
+	
+section.publisher-info img {
+	float:left;
+	margin:0 0.2em 0 0;
+	border:0;
+	padding:0;
+	background-color:#FFFFFF;
+	height:3em;
+	}
+	
+section.publisher-info h1 {
+	margin:0.1em 0 0 0;
+	border:0;
+	padding:0;
+	font-size:1.3em;
+	font-variant:small-caps;
+	}
+	
+section.publisher-info p {
+	margin:0;
+	border:0;
+	padding:0;
+	font:bold 0.85em var(--font-family-serif);
+	}
+	
+address {
+	font-style:normal;
+	}
+
+div.mailing {
+	display:block;
+	margin:0 0 0 0.75em;
+	}
+
+	
+p.copyright {
+	margin:1em 0 0 0;
+	font:bold 0.7em var(--font-family-sans-serif);
+	}
+
+
+@media (max-width:9999px) {
+	header, nav.menu, main, footer {
+		max-width:980px;
+		}
+		
+	main, footer {
+		display:flex;
+		flex-direction:row;
+		justify-content:space-between;
+		}
+		
+	/*  MAIN FLEX */
+	section.column-articles {
+		width:66%;
+		}
+
+	section.column-fyis {
+		width:30%;
+		}
+
+	/*  FOOTER FLEX */
+	section.publisher-info {
+		width:30%;
+		}
+
+	section.sitemap {
+		width:10%;
+		}
+
+	section.contact {
+		width:25%;
+		}
+
+	section.connect {
+		width:10%;
+		}
+
+	section.legal {
+		width:14%;
+		}
+	}
+
+@media (max-width:980px) {
+
+	header {
+		font-size:4vw;
+		}
+		
+	footer {
+		font-size:1.4vw;
+		}
+	}
+
+@media (max-width:600px) {
+	header {
+		font-size:4vw;
+		}
+		
+	nav.menu {
+		font-size:5vw;
+		}
+		
+	main, footer {
+		display:flex;
+		flex-direction:column;
+		justify-content:space-between;
+		} 
+		
+	section.column-articles, section.column-fyis, section.publisher-info, section.sitemap, section.contact, section.connect, section.legal {
+		width:96%;
+		}
+		
+	footer {
+		font-size:4vw;
+		}
+	
+	footer h2 {
+		margin:2.5em 0 0 0;
+		}
+	}
+
+
+/* ##############################################################################
+/* VISUALLY TESTING VIEWPORT WIDTHS
+@media (max-width:2000px) { body { background-color:#FF0015; } }
+@media (max-width:1900px) { body { background-color:#0015FF; } }
+@media (max-width:1800px) { body { background-color:#FF2A00; } }
+@media (max-width:1700px) { body { background-color:#0055FF; } }
+@media (max-width:1600px) { body { background-color:#FF0055; } }
+@media (max-width:1500px) { body { background-color:#0095FF; } }
+@media (max-width:1400px) { body { background-color:#FF6A00; } }
+@media (max-width:1300px) { body { background-color:#00D5FF; } }
+@media (max-width:1200px) { body { background-color:#FF0095; } }
+@media (max-width:1100px) { body { background-color:#00FFEA; } }
+@media (max-width:1000px) { body { background-color:#FFAA00; } }
+@media (max-width:980px) { body { background-color:#000000; } }
+@media (max-width:900px) { body { background-color:#2B00FF; } }
+@media (max-width:800px) { body { background-color:#FFEA00; } }
+@media (max-width:700px) { body { background-color:#00FFAA; } }
+@media (max-width:600px) { body { background-color:#FF00D4; } }
+@media (max-width:500px) { body { background-color:#6A00FF; } }
+@media (max-width:400px) { body { background-color:#D4FF00; } }
+@media (max-width:300px) { body { background-color:#AA00FF; } }
+@media (max-width:200px) { body { background-color:#95FF00; } }
+@media (max-width:100px) { body { background-color:#EA00FF; } }
+@media (max-width:0px) { body { background-color:#55FF00; } }
+*/
